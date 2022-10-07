@@ -1,11 +1,7 @@
-/*  font-family: 'Comfortaa', cursive;
-    font-family: 'Inter', sans-serif; 
-*/
 * {
     padding: 0;
     margin: 0;
 }
-
 body {
     font-family: 'Inter', sans-serif;
     font-weight: 400;
@@ -13,7 +9,6 @@ body {
     line-height: 22px;
     color: #262c27; 
 }
-
 a {
     text-decoration: none;
     color: inherit;
@@ -70,13 +65,11 @@ h1, h2, h3, h4, h5, h6 {
     justify-content: flex-end;
     line-height: 22px;
 }
-
 .logo path {
     transition: fill .3s ease;
 }
 .logo:hover path {
-    fill: #0093A1;
-    
+    fill: #0093A1; 
 }
 .header__btn {
     text-transform: uppercase;
@@ -125,7 +118,6 @@ h1, h2, h3, h4, h5, h6 {
     position: absolute;
     bottom: 0;
 }
-
 .header__decor-text--1, .header__decor-text--2 {
     font-family: 'Comfortaa', cursive;
     font-size: 130px;
@@ -154,7 +146,7 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
 }
 
-/*        Page    TWO    */
+/* -------------------------  Page    TWO ------------------   */
 
 .main {
     background-image: url(../images/RayAirPocket.jpg);
@@ -163,7 +155,6 @@ h1, h2, h3, h4, h5, h6 {
     background-repeat: no-repeat;
     position: relative;
     min-height: calc(100vh + 240px);
-    
 }
 .main::before{
     content: "";
@@ -176,13 +167,11 @@ h1, h2, h3, h4, h5, h6 {
     transform: translateY(-180px);
     position: absolute;
 }
-
 .two__pocket {
     max-width: 975px;
     color: #fff;
     padding-top: 470px;
     display: flex;
-
 }
 .pocket__column {
     position: relative;
@@ -207,7 +196,6 @@ h1, h2, h3, h4, h5, h6 {
 .icon__play {
     margin-bottom: 10px;
 }
-
 .column__text {
     font-family: 'Inter', sans-serif;
     font-size: 18px;
@@ -232,7 +220,6 @@ h1, h2, h3, h4, h5, h6 {
     right: 650px;
     top: 235px;
 }
-
 .specs__items {
     display: flex;
     color: #fff;
@@ -247,7 +234,6 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 67px;
     margin-right: 160px;
     align-items: center;
-
 }
 .specs__two-items {
     display: flex;
@@ -282,7 +268,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-right: 70px;
 }
 
-/*       SECTION       */
+/*     ----------------  SECTION    -------------   */
 
 .section {
 }
@@ -403,8 +389,6 @@ h1, h2, h3, h4, h5, h6 {
     top: 430px;
     cursor: pointer;
 }
-.icon__play {
-}
 .icon__text {
     color: #fff;
 }
@@ -430,14 +414,13 @@ h1, h2, h3, h4, h5, h6 {
     padding-bottom: 50px;
 }
 
-/*        Live   Images         */
+/*     ------------------   Live   Images   ------------------      */
 
 .image__live {
 }
 .live__items {
     margin-top: 100px;
     position: relative;
-    
 }
 .live__text {
     max-width: 350px;
@@ -467,7 +450,6 @@ h1, h2, h3, h4, h5, h6 {
 .live__sup-images img:hover{
     transform: scale(1.2);
 }
-
 .image01 {
     grid-column: 1/-1;
     grid-row: 1/2;
@@ -529,7 +511,7 @@ h1, h2, h3, h4, h5, h6 {
     padding-left: 20px;
 }
 
-/*          FOOTER        */
+/*     ------------------     FOOTER   --------------     */
 
 .footer {
     background-color: #262C27;
@@ -564,7 +546,6 @@ h1, h2, h3, h4, h5, h6 {
     text-transform: uppercase;
     border-bottom: 1px solid #fff;
 }
-
 .contact__title {
     font-family: 'Comfortaa', cursive;
     text-transform: uppercase;
